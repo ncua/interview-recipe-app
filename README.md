@@ -32,3 +32,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## IDEAS
+* Add sort dropdown: calories, a-z, saltiness, fattiest
+* Fix sort
+* Update CSS to match spec
+* Pagination
+* Create a separate page for each recipe (allow for re-use of the card component)
