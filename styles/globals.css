@@ -35,11 +35,6 @@ a {
   padding: 8px 15px;
 }
 
-.menu-items {
-  display: flex;
-  justify-content: space-between;
-}
-
 .sort-order__select {
   border-radius: 2px;
   border: solid 1px #ccc;

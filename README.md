@@ -34,9 +34,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-## IDEAS
-* Add sort dropdown: calories, a-z, saltiness, fattiest
-* Fix sort
-* Update CSS to match spec
-* Pagination
-* Create a separate page for each recipe (allow for re-use of the card component)
+## Questions
+
+1. Currently, the search box just makes an alert appear. Let's get it working and actually make it return any recipe that start with the search term.
+1. The sort order dropdown doesn't actually do anything. Let's get it working so that it sorts based on the selected value in the dropdown.
+1. It's hard to read the recipe. How do you suggest we organize the content? Can you make those adjustments?
+1. Sort dropdown and label should appear on the same line as the search box, at the very right of the screen.
+1. Can you add infinite scroll so that we're not loading 100 recipes at a time?
+1. We want the search function to be smarter. What are some improvements we could make? How would you do this?
+1. Add an endpoint that would allow users to add a recipe.
+1. Create an add recipe button and form.
+1. Any other suggestions on how we could improve the code and application?

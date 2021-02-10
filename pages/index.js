@@ -31,13 +31,11 @@ const Home = () => {
 
       <div className="page page--home">
         <h1>Super Duper Delicious Recipes</h1>
-        <div className="menu-items">
-          <div className="search">    
-              <input className="search__input" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
-              <button className="search__button" onClick={handleClick}>Search</button> 
-          </div>
-          <SortOrder active={sortOrder}/>
+        <div className="search">    
+            <input className="search__input" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
+            <button className="search__button" onClick={handleClick}>Search</button> 
         </div>
+        <SortOrder active={sortOrder}/>
         <div className="recipes">
           {recipes && recipes.length > 0 ? recipes.map(recipe => <Recipe {...recipe} />) : `Sorry to make you hangry, but we couldn't find any recipes for you.`}
         </div>
