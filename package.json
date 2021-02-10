@@ -6,6 +6,7 @@
     "dev": "next dev -p 8000",
     "build": "next build",
     "start": "next start",
+    "pretest": "npm install",
     "test": "jest ---reporters=jest-junit"
   },
   "dependencies": {
